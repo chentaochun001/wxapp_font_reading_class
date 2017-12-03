@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/dairy/dairy",
+    "pages/world/world",
+    "pages/intelligence/intelligence",
+    "pages/introduction/introduction",
+    "pages/dairy/detail/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "light"
+  }
+}

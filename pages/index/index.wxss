@@ -1,0 +1,41 @@
+/**index.wxss**/
+.page__hd {
+  width: 100%;
+  margin:300rpx  0 0;
+}
+.page__hd_image image{
+  width: 194rpx;
+  height: 194rpx;
+}
+.page__hd_title {
+  height: 38rpx;
+  text-align: center;
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #00b0f5;
+  margin: 68rpx 0 180rpx;
+
+}
+.page__bd {
+  margin: 0 auto;
+  width: 688rpx;
+  height: 76rpx;
+}
+.swiper-tab {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #00b0f5;  
+}
+.swiper-tab-item {
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+  font-size: 36rpx;
+  height: 76rpx;
+  color: #ffffff;
+  line-height: 76rpx;
+}
+.active {
+  background: #48abe5;
+}

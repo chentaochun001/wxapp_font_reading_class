@@ -1,0 +1,9 @@
+{
+    "pages":[
+        "pages/dairy/dairy",
+        "pages/detail/detail"
+    ],
+    "window": {
+        
+    }
+}

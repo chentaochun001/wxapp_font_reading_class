@@ -1,7 +1,7 @@
 /**index.wxss**/
 .page__hd {
   width: 100%;
-  margin:300rpx  0 0;
+  margin:241rpx  0 0;
 }
 .page__hd_image image{
   width: 194rpx;

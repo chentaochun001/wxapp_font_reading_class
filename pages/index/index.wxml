@@ -1,4 +1,8 @@
 <!--index.wxml-->
+<import src="../dairy/dairy.wxml"/>
+<import src="../world/world.wxml"/>
+<import src="../intelligence/intelligence.wxml"/>
+<import src="../introduction/introduction.wxml"/>
 <view class="container">
   <view class="page__hd">
     <view class="page__hd_image center">
@@ -16,5 +20,6 @@
       <view class="swiper-tab-item active" bindtap="introduction">简介</view>
     </view>
   </view>
+  <view class="page_ft"></view>
 </view>
  

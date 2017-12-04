@@ -1,2 +1,28 @@
 <!--pages/dairy/dairy.wxml-->
-<text>pages/dairy/dairy.wxml</text>
+<view class="page__hd">
+    <view class="page__hd_title">
+        <view>每日</view>
+        <view class="specil">早</view>
+        <view>读</view>
+    </view>
+    <view class="page__bd center">
+        <view class="page__bd_data">
+            <view class="page__bd_data_day">4</view>
+            <view class="page__bd_data_month">
+                <view>12月</view>
+                <view>星期一</view>
+            </view>
+        </view>
+        <view class="page__bd_article">
+            
+        </view>
+        <view class="page__bd_motto">
+            <view class="page_bd_motto_content">看不够，我要沉迷学习</view>
+            <button class="page_bd_motto_read">阅读</button>
+        </view>
+    </view>
+    <view class="page__fr">
+        <view class="page__fr_from">来自前端早读课</view>
+        <image class="page__fr_img" src=""></image>
+    </view>
+</view>

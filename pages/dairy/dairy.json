@@ -1,9 +1,6 @@
 {
-    "pages":[
-        "pages/dairy/dairy",
-        "pages/detail/detail"
-    ],
-    "window": {
-        
-    }
+    "backgroundTextStyle": "black",
+    "navigationBarTitleText":"同行在看",
+    "navigationBarBackgroundColor":"#00b0f5",
+    "navigationBarTextStyle":"light"
 }

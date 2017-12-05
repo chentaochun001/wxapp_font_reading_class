@@ -1,1 +1,111 @@
 /* pages/dairy/dairy.wxss */
+
+page {
+    background: #f0efef;
+    font-family: '楷体';
+}
+.page__hd {
+    width: 100%;
+    height: 130rpx;
+    
+}
+.page__hd_title {
+    display: flex;
+    align-items: center;
+    margin: 47rpx 77rpx;
+    width: 174rpx;
+    height: 79rpx;
+}
+.page__hd_title_common {
+    line-height: 29rpx;
+    color: #000000;
+    margin: 41rpx 5rpx 10rpx 0;
+}
+.page__hd_title_specil {
+    font-size: 79rpx;
+    font-weight: bold;
+    line-height: 79rpx;
+    color: #26c1e8;
+    margin-right: 10rpx;
+}
+.page__bd {
+    margin: 0 auto;
+    width: 600rpx;
+    height: 850rpx;
+    background: rgba(255, 255, 255, .7);
+    border: 2rpx solid #dbd7d7;
+}
+.page__bd_data {
+    margin: 0 auto;
+    width: 540rpx;
+    height: 230rpx;
+    border-bottom: 2rpx solid #27c1e8;
+}
+.page__bd_data_day {
+    font-size: 100rpx;
+    text-align: center;
+    color: #000000; 
+    font-weight: bold;
+    font-family: '黑体';
+}
+.page__bd_data_detail {
+    margin: 0 auto;
+    width: 300rpx;
+    display: flex;
+    font-size: 32rpx;
+    /* font-weight: bold; */
+}
+.page__bd_data_detail_month {
+    flex: 1;
+    text-align: center;
+}
+.page__bd_data_detail_weeks {
+    flex: 1;
+    text-align: center;
+}
+.page__bd_article {
+    margin: 0 auto;
+    width: 520rpx;
+    height: 400rpx;
+}   
+.page__bd_article_content {
+    margin-top: 100rpx;
+    height: 400rpx;
+    margin-left: 0rpx;
+    color: #000000;
+    font-size: 40rpx;
+    font-family: '宋体';
+}
+.page__bd_motto {
+    margin: 0 auto;
+    width: 100%;
+    height: 120rpx;
+}
+.page_bd_motto_content {
+    float: left;
+    line-height: 60rpx;
+    font-size: 30rpx;
+    margin-top: 40rpx;
+    margin: 30rpx 50rpx 24rpx 24rpx;
+    color: #666666;
+}
+.page_bd_motto_read {
+    float: left;
+    width: 158rpx;
+    line-height: 80rpx;
+    text-align: center;
+    background: #26c1e8;
+    color: #ffffff;
+    font-size: 40rpx;
+    margin: 0rpx 8rpx 14rpx 30rpx;
+}
+.page__fr {
+    width: 760rpx;
+}
+.page__fr_form {
+    width: 600rpx;
+    font-size: 32rpx;
+    line-height: 80rpx; 
+    color: #999999;
+    text-align: right;
+}

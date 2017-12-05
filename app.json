@@ -1,8 +1,9 @@
 {
   "pages": [
+   
     "pages/index/index",
-    "pages/logs/logs",
     "pages/dairy/dairy",
+    "pages/logs/logs",
     "pages/world/world",
     "pages/intelligence/intelligence",
     "pages/introduction/introduction",

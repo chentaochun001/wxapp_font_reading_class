@@ -1,6 +1,5 @@
 {
   "pages": [
-   
     "pages/index/index",
     "pages/dairy/dairy",
     "pages/logs/logs",
@@ -11,7 +10,7 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarTitleText":"black",
+    "navigationBarTitleText":"",
     "navigationBarBackgroundColor": "#ffffff",
     "navigationBarTextStyle": "light"
   }

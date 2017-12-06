@@ -1,1 +1,36 @@
 /* pages/dairy/detail/detail.wxss */
+.container {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+}
+.page__hd {
+  margin: 0 auto;
+  width: 714rpx;
+  height: 120rpx;
+  color: #333333;
+  border-bottom: 2rpx solid #dddddd;
+}
+.page__hd_title {
+    width: 100%;
+    line-height: 40rpx;
+    height: 66rpx;
+    text-align: center;
+    font-size: 30rpx;
+    margin-top: 30rpx;
+}
+.page__hd_author {
+    width: 100%;
+    line-height: 40rpx;
+    font-size: 30rpx;
+    text-align: right; 
+    margin-bottom: 16rpx;
+}
+.page__bd {
+    margin: 0 auto;
+    width: 714rpx;
+    height: 630rpx;
+}
+.page__bd_content {
+    
+}

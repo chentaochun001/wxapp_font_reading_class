@@ -2,7 +2,6 @@
 
 page {
     background: #f0efef;
-    font-family: '楷体';
 }
 .page__hd {
     width: 100%;
@@ -66,15 +65,14 @@ page {
 .page__bd_article {
     margin: 0 auto;
     width: 520rpx;
-    height: 400rpx;
+    height: 350rpx; 
 }   
 .page__bd_article_content {
-    margin-top: 100rpx;
-    height: 400rpx;
+    margin-top: 150rpx;
+    height: 350rpx; 
     margin-left: 0rpx;
     color: #000000;
     font-size: 40rpx;
-    font-family: '宋体';
 }
 .page__bd_motto {
     margin: 0 auto;

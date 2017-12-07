@@ -1,2 +1,17 @@
 <!--pages/introduction/introduction.wxml-->
-<text>pages/introduction/introduction.wxml</text>
+<view class="page__hb">
+    <view class="page__hb_image">
+        <image src="../../images/1.png" />
+    </view>
+    <view class="page__hb_headline">前端早读课</view>
+</view>
+<view class="page__bd">
+    <view class="page__bd_introduce">每次随机推荐一篇前端、产品、个人成长类的文章，让你坚持每天阅读。</view>
+    <view class="page__bd_author">开发者：@情封</view>
+</view>
+<view class="page__fr">
+    <view class="page__fr_image">
+        <image src="../../images/2.png" />
+    </view>
+    <view class="page__fr_state">长按或扫一扫关注</view>
+</view>

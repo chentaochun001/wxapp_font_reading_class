@@ -1,6 +1,6 @@
 <!--pages/introduction/introduction.wxml-->
 <view class="page__hb">
-    <view class="page__hb_image">
+    <view class="page__hb_image center">
         <image src="../../images/1.png" />
     </view>
     <view class="page__hb_headline">前端早读课</view>
@@ -10,7 +10,7 @@
     <view class="page__bd_author">开发者：@情封</view>
 </view>
 <view class="page__fr">
-    <view class="page__fr_image">
+    <view class="page__fr_image center">
         <image src="../../images/2.png" />
     </view>
     <view class="page__fr_state">长按或扫一扫关注</view>

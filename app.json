@@ -6,11 +6,12 @@
     "pages/world/world",
     "pages/intelligence/intelligence",
     "pages/introduction/introduction",
-    "pages/dairy/detail/detail"
+    "pages/dairy/detail/detail",
+    "pages/common/list/list"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarTitleText":"",
+    "navigationBarTitleText": "",
     "navigationBarBackgroundColor": "#ffffff",
     "navigationBarTextStyle": "light"
   }

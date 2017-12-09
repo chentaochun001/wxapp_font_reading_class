@@ -33,8 +33,8 @@
 }
 .page__fr {
     width: 100%;
-    height: 386rpx;
-    margin-top: 130rpx;
+    height: 406rpx;
+    margin-top: 110rpx;
 }
 .page__fr_image image{
     width: 208rpx;

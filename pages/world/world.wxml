@@ -1,2 +1,22 @@
 <!--pages/world/world.wxml-->
-<text>pages/world/world.wxml</text>
+<import src="../common/list/list.wxml" />
+
+<view class="page__hb">
+  <view class="swiper-tab">
+        <view class="swiper-tab-item" bindtap="changeTag">html</view>
+        <view class="swiper-tab-item" bindtap="changeTag">css</view>
+        <view class="swiper-tab-item" bindtap="changeTag">javascript</view>
+  </view>
+</view>
+<view class="page__bd">
+    <swiper current='{{activeIndex}}' bindchange='swiperTab'>
+      <swiper-item>
+        <view class="swiper-item weui-tab__content">
+          <!-- 全部 -->
+          <block wx:for="{{html}}" wx:key="{{index}}">
+            <template is="github_list" data="{{...item}}"></template>
+          </block>
+        </view>
+      </swiper-item>
+    </swiper>
+</view>

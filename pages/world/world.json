@@ -1,1 +1,6 @@
-{}
+{
+    "backgroundTextStyle": "black",
+    "navigationBarTitleText": "Github当日排行",
+    "navigationBarBackgroundColor":"#00b0f5",
+    "navigationBarTextStyle":"light"
+}

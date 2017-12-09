@@ -4,6 +4,7 @@
         <view class="page__hd_author">作者：@Z Yuhan</view>
     </view>
     <view class="page__bd">
+            <image src=""/>
             <text class="page__bd_content center">
                     做了这些年的交互设计，我觉得对我帮助最大的老师是用户，因为每次用户反馈和测试都能给我和同事们感到惊讶。
                     

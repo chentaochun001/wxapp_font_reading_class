@@ -15,9 +15,7 @@
             </view>
         </view>
         <view class="page__bd_article">
-            <view class="page__bd_article_content">
-                单身职场人士如何利用晚上8点-10点这段时间自我提升？
-            </view>
+            <view class="page__bd_article_content">{{acticle_List.headline}}</view>
         </view>
         <view class="page__bd_motto">
             <view class="page_bd_motto_content">看不够，我要沉迷学习</view>
@@ -25,6 +23,6 @@
         </view>
     </view>
     <view class="page__fr center">
-        <view class="page__fr_form">来自前端早读课</view>
+        <view class="page__fr_from">来自{{acticle_List.from}}</view>
     </view>
 </view>

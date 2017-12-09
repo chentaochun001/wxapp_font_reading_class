@@ -22,7 +22,7 @@ page {
 }
 .page__hd_title_specil {
     font-size: 79rpx;
-    font-weight: bold;
+    /* font-weight: bold; */
     line-height: 79rpx;
     color: #26c1e8;
     margin-right: 10rpx;
@@ -44,7 +44,7 @@ page {
     font-size: 100rpx;
     text-align: center;
     color: #000000; 
-    font-weight: bold;
+    /* font-weight: bold; */
     font-family: '黑体';
 }
 .page__bd_data_detail {
@@ -100,7 +100,7 @@ page {
 .page__fr {
     width: 760rpx;
 }
-.page__fr_form {
+.page__fr_from {
     width: 600rpx;
     font-size: 32rpx;
     line-height: 80rpx; 

@@ -36,6 +36,6 @@
   color: #ffffff;
   line-height: 76rpx;
 }
-.active {
+.swiper-tab-item:after {
   background: #48abe5;
 }

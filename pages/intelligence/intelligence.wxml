@@ -1,2 +1,16 @@
 <!--pages/intelligence/intelligence.wxml-->
-<text>pages/intelligence/intelligence.wxml</text>
+  <view class="page__hd">
+      <view class="page__hd_state">本数据由awesomes.cn提供</view>
+  </view>
+  <view class="page__bd">
+      <view class="page__bd_headline center">
+          <view class="page__bd_headline_img">
+              <image src="../../images/head1.png"/>
+          </view>
+          <view class="page__bd_headline_author">阿假当分享于</view>
+          <view class="page__bd_headline_time">2017-12-07</view>
+      </view>
+      <view class="page__bd_detail">
+         
+      </view>
+  </view>

@@ -8,10 +8,10 @@
     </view>
     <view class="page__bd">
         <view class="page__bd_data">
-            <view class="page__bd_data_day">4</view>
+            <view class="page__bd_data_day">{{date}}</view>
             <view class="page__bd_data_detail">
-                <view class="page__bd_data_detail_month">12月</view>
-                <view class="page__bd_data_detail_weeks">星期一</view>
+                <view class="page__bd_data_detail_month">{{month}}月</view>
+                <view class="page__bd_data_detail_weeks">{{day}}</view>
             </view>
         </view>
         <view class="page__bd_article">

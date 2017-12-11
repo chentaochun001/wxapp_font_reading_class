@@ -5,10 +5,14 @@ Page({
   // date：某日
   // month：月份
   data: {
-    day: "",
-    date: "",
-    month: "",
+    index: "",
+    arrlist: [],
+    headline: "",
+    from: "",
+    id: ""
   },
+
+  //监听页面显示
   onShow: function () {
       var myDate = new Date();
       // setData设置或更新数据
@@ -30,33 +34,25 @@ Page({
           return day;
         }
   },
-  onLoad: function (options) {
-    
-  },
-  readDetail: function() {
-    wx.navigateTo({
-      url: './detail/detail'
-    })
-  },
- 
-  onReady: function () {
-  
-  },
-  
-  onHide: function () {
-  
-  },
-  onUnload: function () {
-  
-  },
 
-  onPullDownRefresh: function () {
-  
+  onLoad: function () {
+    var that = this;
+      wx.request({
+        url: 'https://www.easy-mock.com/mock/5a2b5f76158e7b70032804d0/getActicleInfo/getActicleInfo',
+        method: 'GET',
+        data: {},
+        success: function(res) {
+          //获取文章数据的列表
+          var arr = res.data.data.acticle_List;
+          //用随机函数随机获取文章数组的下标
+          var index = Math.floor(Math.random()*arr.length);
+          // console.log(arr[index].acticle_id);
+          that.setData({
+            headline: arr[index].headline,
+            from: arr[index].from,
+            id: arr[index].acticle_id
+          })
+        }
+      })
   },
-  onReachBottom: function () {
-  
-  },
-  onShareAppMessage: function () {
-  
-  }
 })

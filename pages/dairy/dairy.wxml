@@ -15,14 +15,16 @@
             </view>
         </view>
         <view class="page__bd_article">
-            <view class="page__bd_article_content">{{acticle_List.headline}}</view>
+            <view class="page__bd_article_content">{{headline}}</view>
         </view>
         <view class="page__bd_motto">
             <view class="page_bd_motto_content">看不够，我要沉迷学习</view>
-            <button class="page_bd_motto_read" bindtap="readDetail" >阅读</button>
+            <navigator url="./detail/detail?id={{id}}">
+                <button class="page_bd_motto_read">阅读</button>
+            </navigator>
         </view>
     </view>
     <view class="page__fr center">
-        <view class="page__fr_from">来自{{acticle_List.from}}</view>
+        <view class="page__fr_from">来自{{from}}</view>
     </view>
 </view>

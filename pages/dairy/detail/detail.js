@@ -1,66 +1,22 @@
-// pages/dairy/detail/detail.js
 Page({
-
-  /**
-   * 页面的初始数据
-   */
   data: {
-  
+    item: []
   },
+  onLoad: function(params) {
+    console.log(params.id);
+    var that = this;
+    wx.request({
+      url: 'https://www.easy-mock.com/mock/5a2b5f76158e7b70032804d0/getActicleInfo/getActicleInfo',
+      success: function(res) {
+        var datas = res.data.data.acticle_List.filter(item => {
+          return item.acticle_id == params.id;
+        });
+        that.setData({
+          item: datas
+        });
+        console.log(datas)
+      }
+    })
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-  
-  },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-  
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-  
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-  
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-  
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-  
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-  
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-  
   }
 })

@@ -7,7 +7,8 @@
     "pages/intelligence/intelligence",
     "pages/introduction/introduction",
     "pages/dairy/detail/detail",
-    "pages/common/list/list"
+    "pages/common/list_world/list_world",
+    "pages/common/list_intelligence/list_intelligence"
   ],
   "window": {
     "backgroundTextStyle": "light",

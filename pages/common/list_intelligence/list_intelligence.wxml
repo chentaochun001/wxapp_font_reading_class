@@ -1,0 +1,15 @@
+<!--pages/common/list_intelligence/list_intelligence.wxml-->
+<template name = "intelligence_list">
+ <view class="page__cell">
+    <view class="page__cell_headline center">
+        <view class="page__cell_headline_img">
+            <image src="{{avatar}}"/>
+        </view>
+
+        <view class="page__cell_headline_author">{{author}}分享于</view>
+        <view class="page__cell_headline_time">{{share_time}}</view>
+    </view>
+    <view class="page__cell_detail center">{{content}}</view>
+ </view>
+</template>
+

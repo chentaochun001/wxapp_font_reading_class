@@ -1,0 +1,14 @@
+<!--pages/common/list/list.wxml-->
+<template name = "github_list">
+    <view class="page__cell">
+        <view class="page__cell_box">
+            <view class="page__cell_box_hd">{{title}}</view>
+            <view class="page__cell_box_bd">{{describle}}</view>
+            <view class="page__cell_box_fr"> 
+                <view class="page__cell_box_fr_star">Star:{{star_num}}</view>
+                <view class="page__cell_box_fr_author">作者：@{{author}}</view>
+            </view>
+        </view>
+    </view>
+</template>
+

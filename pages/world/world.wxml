@@ -1,19 +1,37 @@
 <!--pages/world/world.wxml-->
-<import src="../common/list/list.wxml" />
+<import src="../common/list_world/list_world.wxml" />
 
 <view class="page__hb">
   <view class="swiper-tab">
-        <view class="swiper-tab-item" bindtap="changeTag">html</view>
-        <view class="swiper-tab-item" bindtap="changeTag">css</view>
-        <view class="swiper-tab-item" bindtap="changeTag">javascript</view>
+    <view class="swiper-tab-item {{activeIndex==0?'active':''}}" bindtap="changeTag" data-index="0">html</view>
+    <view class="swiper-tab-item {{activeIndex==1?'active':''}}" bindtap="changeTag" data-index="1">css</view>
+    <view class="swiper-tab-item {{activeIndex==2?'active':''}}" bindtap="changeTag" data-index="2">javascript</view>
   </view>
 </view>
 <view class="page__bd">
-    <swiper current='{{activeIndex}}' bindchange='swiperTab'>
+    <swiper current='{{activeIndex}}' bindchange="swiperTab">
       <swiper-item>
-        <view class="swiper-item weui-tab__content">
-          <!-- 全部 -->
-          <block wx:for="{{html}}" wx:key="{{index}}">
+        <view class="swiper-item">
+          <!--html -->
+          <block wx:for="{{html_List}}" wx:key="{{index}}">
+            <template is="github_list" data="{{...item}}"></template>
+          </block>
+        </view>
+      </swiper-item>
+
+      <swiper-item>
+        <view class="swiper-item">
+          <!-- css -->
+          <block wx:for="{{css_List}}" wx:key="{{index}}">
+            <template is="github_list" data="{{...item}}"></template>
+          </block>
+        </view>
+      </swiper-item>
+
+      <swiper-item>
+        <view class="swiper-item">
+          <!-- javascript -->
+          <block wx:for="{{javascript_List}}" wx:key="{{index}}">
             <template is="github_list" data="{{...item}}"></template>
           </block>
         </view>

@@ -1,9 +1,6 @@
 // pages/dairy/dairy.js
 const app = getApp()
 Page({
-  // day：星期几
-  // date：某日
-  // month：月份
   data: {
     index: "",
     arrlist: [],
@@ -13,6 +10,9 @@ Page({
   },
 
   //监听页面显示
+  // day：星期几
+  // date：某日
+  // month：月份
   onShow: function () {
       var myDate = new Date();
       // setData设置或更新数据
@@ -44,12 +44,13 @@ Page({
         success: function(res) {
           //获取文章数据的列表
           var arr = res.data.data.acticle_List;
-          //用随机函数随机获取文章数组的下标
+          //用随机函数随机获取数组的下标
           var index = Math.floor(Math.random()*arr.length);
           // console.log(arr[index].acticle_id);
           that.setData({
             headline: arr[index].headline,
             from: arr[index].from,
+            // 设置id作为阅读详情页的一个钩子
             id: arr[index].acticle_id
           })
         }

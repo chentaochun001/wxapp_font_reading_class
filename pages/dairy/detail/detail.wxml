@@ -1,6 +1,6 @@
 <!--pages/dairy/detail/detail.wxml-->
     <view class="page__hd">
-        <view class="page__hd_title">{{item[0].headline}}</view>
+        <view class="page__hd_title center">{{item[0].headline}}</view>
         <view class="page__hd_author">作者：@{{item[0].author}}</view>
     </view>
     <view class="page__bd">

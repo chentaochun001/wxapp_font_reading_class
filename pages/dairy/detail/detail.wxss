@@ -33,7 +33,7 @@
 }
 .page__bd_content {
     width: 100%;
-    font-size: 30rpx;
+    font-size: 28rpx;
     line-height: 40rpx;
     margin-top: 16rpx;
 }

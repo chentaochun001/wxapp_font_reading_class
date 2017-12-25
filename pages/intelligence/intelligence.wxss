@@ -23,7 +23,7 @@
 }
 .page__cell_headline {
     width: 100%;
-    margin-top: 18rpx;
+    margin-top: 20rpx;
     text-align: center;
 }
 .page__cell_headline_img image {
@@ -47,7 +47,7 @@
 .page__cell_detail {
     width: 100%;
     height: 190rpx;
-    line-height: 30rpx;
+    line-height: 28rpx;
     margin: 0 auto;
     color: #000000;
     font-size: 26rpx;

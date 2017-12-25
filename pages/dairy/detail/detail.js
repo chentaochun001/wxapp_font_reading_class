@@ -1,9 +1,11 @@
 Page({
   data: {
+    // 表示该篇文章
     item: []
   },
+  // 页面加载时执行此函数
   onLoad: function(params) {
-    // 检验id是否传递成功
+    // 检验id是否传递成功，params.id 是指每日一看页面的id
     console.log(params.id);
     var that = this;
     wx.request({

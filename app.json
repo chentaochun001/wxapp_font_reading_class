@@ -1,14 +1,14 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/dairy/dairy",
-    "pages/logs/logs",
-    "pages/world/world",
-    "pages/intelligence/intelligence",
-    "pages/introduction/introduction",
-    "pages/dairy/detail/detail",
-    "pages/common/list_world/list_world",
-    "pages/common/list_intelligence/list_intelligence"
+    "pages/index/index",   
+    "pages/dairy/dairy",   
+    "pages/dairy/detail/detail",  
+    "pages/world/world",  
+    "pages/intelligence/intelligence", 
+    "pages/introduction/introduction",  
+    "pages/common/list_world/list_world",  
+    "pages/common/list_intelligence/list_intelligence", 
+    "pages/logs/logs"    
   ],
   "window": {
     "backgroundTextStyle": "light",
